@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751021133970",
+    "project_id": "illapsu",
+    "storage_bucket": "illapsu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751021133970:android:8e8cfa7ec74e99084f564b",
+        "android_client_info": {
+          "package_name": "com.example.illapsum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751021133970-ge0c8gjo4vj7aaf9lrflhmhe8lqe68g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAghR9ZLP2bIXdpe-vnnnkzAUNxee_ar4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751021133970-ge0c8gjo4vj7aaf9lrflhmhe8lqe68g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
