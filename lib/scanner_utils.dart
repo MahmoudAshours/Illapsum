@@ -1,4 +1,3 @@
-
 import 'dart:async';
 import 'dart:typed_data';
 import 'dart:ui';
@@ -19,9 +18,9 @@ class ScannerUtils {
   }
 
   static Future<dynamic> detect({
-    required CameraImage image,
-    required Future<dynamic> Function(FirebaseVisionImage image) detectInImage,
-    required int imageRotation,
+    CameraImage image,
+    Future<dynamic> Function(FirebaseVisionImage image) detectInImage,
+    int imageRotation,
   }) async {
     return detectInImage(
       FirebaseVisionImage.fromBytes(
